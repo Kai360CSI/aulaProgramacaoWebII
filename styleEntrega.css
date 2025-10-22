@@ -1,0 +1,28 @@
+address {
+    font-style: normal;
+    color: blue;
+}
+
+#img-logo {
+    width: 20px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: rgb(53, 138, 223);
+}
+
+label {
+    display: flex;
+    justify-content:left ;
+    list-style:square ;
+    margin: 0;
+    padding: 0.1rem;
+    height: 30px;
+}
+
+input {
+    display:flexbox ;
+    border-radius: 1px;
+    
+}
