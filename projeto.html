@@ -1,50 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos</title>
+    <title>Projetos de Voluntariado</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Nosso Voluntáriado</h1>
         <nav>
-            <ul>
+            <div class="logo">💙 Voluntários</div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul id="navMenu">
                 <li><a href="index.html">Início</a></li>
-                <li><a href="projeto.html">Projetos</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="projeto.html" class="active">Projetos</a></li>
+                <li><a href="cadastro.html">Seja Voluntário</a></li>
             </ul>
         </nav>
     </header>
 
-    <img id="logo" src="img/cao-e-gato-filhotes.jpg" width="200px" alt="cao e gato filhotes">
+    <!-- section do titulo -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Nossos Projetos de Voluntariado</h1>
+            <p>Descubra como as nossas ações transformam vidas e como você pode ajudar!!</p>
+        </div>
+    </section>
+   
+    <section class="about">
+        <h2>Como Funciona:</h2>
+        <p>Nosso projeto de voluntariado conecta pessoas dispoastas a ajudar o próximo</p>
+
+        <h2>Para que serve o Voluntariado</h2>
+        <p>Serve para transformar vidas, inclusão social e muito mais.</p>
+
+        <div class="impact-cards">
+            <div class="card">
+                <div class="card-icons">📚</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Fale Conosco</h2>
+        <address>
+            <p>&#x1F4CD <strong>Endereço: </strong></p>
+        </address>
+    </section>
+   
     
-    <h2>Conheça alguns dos nossos projetos.</h2>
-
-    <h3>Três Iniciativas para uma Nova Vida</h3>
-    <p>A ONG Patas Amigas, dedicada ao resgate, cuidado e realocação de cães e gatos em situação de vulnerabilidade, 
-        orgulha-se de apresentar três projetos-piloto que visam maximizar o impacto de suas ações:</p>
-    
-    <p><strong>Projeto "Abrigo-Lar Transitório" (ALT):</strong>
-        Focado em transformar lares temporários em pequenos centros de reabilitação emocional. 
-        Em vez de um canil/gatil tradicional, voluntários recebem suporte veterinário, comportamental
-         e financeiro intensivo para acolher animais resgatados, garantindo que o processo de 
-         socialização e recuperação de traumas ocorra em um ambiente doméstico e amoroso, 
-         preparando-os melhor para a adoção definitiva. A meta é reduzir o estresse do animal e acelerar sua adaptação.</p>
-
-    <p><strong>Iniciativa "Vínculo Seguro":</strong>Um programa de mentoria pós-adoção de seis meses. 
-        Casais e famílias que adotam recebem o acompanhamento de um técnico comportamental e um veterinário 
-        via teleconsultas mensais e encontros presenciais trimestrais. Este projeto visa prevenir devoluções 
-        de animais ao ajudar a resolver desafios de adaptação (como treinamento de higiene, ansiedade de separação, 
-        etc.) e garantir que o vínculo entre o pet e o novo tutor seja forte e duradouro.</p>
-
-    <p><strong>Campanha "Comunidade Consciente":</strong>Não apenas resgata, mas educa e previne. 
-        Este projeto itinerante leva clínicas veterinárias móveis para comunidades de baixa renda, 
-        oferecendo castração gratuita, vacinação e microchipagem. As equipes também realizam palestras 
-        sobre posse responsável, bem-estar animal e a importância da denúncia de maus-tratos, atuando na 
-        raiz do problema do abandono e da superpopulação de rua.</p>
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Como Cães e Gatos</p>
+        <p>&copy; 2025 Organização de Voluntários. Todos os direitos reservados.</p>
+        <p>Feito com ❤️ para transformar vidas</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+ 
